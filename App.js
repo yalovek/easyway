@@ -6,16 +6,19 @@ import {
   Image
 } from 'react-native';
 
-var fullImage = {uri: 'https://facebook.github.io/react/img/logo_og.png'};
+var fullImage = {uri: 'https://upload.wikimedia.org/wikipedia/commons/d/de/Bananavarieties.jpg'};
 
 
 export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
+
         <Image
-            source={fullImage}
-        />
+              source={fullImage}
+              style={{width: 193, height: 110}}
+          />
+
         <Text>Где мой миллиард?</Text>
       </View>
     );

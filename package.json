@@ -22,6 +22,7 @@
     "expo": "^16.0.0",
     "react": "16.0.0-alpha.6",
     "react-native": "^0.43.4",
+    "react-native-ios-charts": "^0.3.0",
     "react-native-tesseract-ocr": "^1.0.8"
   }
 }
